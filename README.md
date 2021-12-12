@@ -24,7 +24,7 @@ By Yaowei Li, Jinshan Pan, Ye Luo, Jianwei Lu
     Firstly, combine the paired blur-sharp exemplar:
     ```sh
 	cd ./pre_datasets
-    python combine_blur_and_sharp.py --fold_A ./Blur --fold_B ./Sharp --fold_AB ./testSet/exemplar_AB
+    python combine_blur_and_sharp.py --fold_A ./Blur --fold_B ./Sharp --fold_AB ../testSet/exemplar_AB
     ```
     Then, test image:
     ```sh
@@ -41,7 +41,7 @@ By Yaowei Li, Jinshan Pan, Ye Luo, Jianwei Lu
    Firstly, combine the paired blur-sharp exemplar:
    ```sh
    cd ./pre_datasets   
-   python combine_blur_and_sharp.py --fold_A ./Blur --fold_B ./Sharp --fold_AB ./testSet/exemplar_AB
+   python combine_blur_and_sharp.py --fold_A ./Blur --fold_B ./Sharp --fold_AB ../testSet/exemplar_AB
    ```
    Then, test image:
    ```sh
