@@ -1,0 +1,1 @@
+put test images into './testImage'; put the paired blurry_sharp exemplars into './exemplar_AB' or put the sharp exemplar into './exemplar_AB';

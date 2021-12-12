@@ -1,0 +1,1 @@
+put blurry input/exemplar into "./Blur"; put burry corresponding sharp one into './Sharp';  run combine_blur_and_sharp.py into './Combined_Blur_Sharp'
