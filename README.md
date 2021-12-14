@@ -18,7 +18,7 @@ By Yaowei Li, Jinshan Pan, Ye Luo, Jianwei Lu
 ### Download
 * Pretrained model can be downloaded from [HERE](https://pan.baidu.com/s/10097ea2xIdQ836b3VAQvjw)(7ci5), please put them to './checkpoints/experiment_name/'
 
-## Testing
+### Testing
 1. Run the following commands to test on our method.
  * If the exemplar has the corresponding blur:
     Firstly, combine the paired blur-sharp exemplar:
@@ -63,6 +63,14 @@ After `multi_test.py` is done, run `changeDeblurImage.py` to obtain the final re
    ```sh
    python train.py --dataroot ./pre_datasets/Combined_Blur_Sharp
    ```
+
+## Citation
+   @article{Li2021DREDSD,
+    title={Deep Ranking Exemplar-based Dynamic Scene Deblurring},
+    author={Li, Yaowei and Pan, Jinshan and Luo, Ye and Lu, Jianwei},
+    journal={IEEE Transactions on Image Processing},
+    year={2021}
+    }
 
 ## Acknowledgments
 This code is based on [DeblurGAN](https://github.com/KupynOrest/DeblurGAN) and [CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). Thanks for their greate works.
