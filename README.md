@@ -65,11 +65,11 @@ After `multi_test.py` is done, run `changeDeblurImage.py` to obtain the final re
    ```
 
 ## Citation
-   @article{Li2021DREDSD,
-    title={Deep Ranking Exemplar-based Dynamic Scene Deblurring},
-    author={Li, Yaowei and Pan, Jinshan and Luo, Ye and Lu, Jianwei},
-    journal={IEEE Transactions on Image Processing},
-    year={2021}
+	@inproceedings{Li2021DREDSD,
+      title={Deep Ranking Exemplar-based Dynamic Scene Deblurring},
+      author={Li, Yaowei and Pan, Jinshan and Luo, Ye and Lu, Jianwei},
+      booktitle={IEEE Transactions on Image Processing},
+      year={2021}
     }
 
 ## Acknowledgments
