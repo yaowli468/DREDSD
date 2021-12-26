@@ -31,6 +31,7 @@ By Yaowei Li, Jinshan Pan, Ye Luo, Jianwei Lu
     python test.py --dataroot=./testSet/testImage --exemplar_dir=./testSet/exemplar_AB
     ```
  * If the exemplar has no coresponding blur:
+	Firstly, put the sharp exemplar to './test/exemplar_AB', and then test image:
     ```sh
     python test.py --no_blur_exemplar --dataroot=./testSet/testImage --exemplar_dir=./testSet/exemplar_AB
     ```
@@ -48,6 +49,7 @@ By Yaowei Li, Jinshan Pan, Ye Luo, Jianwei Lu
    python multi_test.py --dataroot=./testSet/testImage --exemplar_dir=./testSet/exemplar_AB
    ```
  * If the exemplar has no coresponding blur:
+	Firstly, put the sharp exemplar to './test/exemplar_AB', and then test image:
    ```sh
    python multi_test.py --no_blur_exemplar --dataroot=./testSet/testImage --exemplar_dir=./testSet/exemplar_AB
    ```
